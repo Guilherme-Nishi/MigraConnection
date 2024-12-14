@@ -1,3 +1,225 @@
+
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: linear-gradient(45deg, #00a5cf, #6cc24a);
+            color: white;
+        }
+
+
+        header img {
+    max-height: 70px;
+    margin-bottom: 10px;
+}
+
+
+        .hero {
+            text-align: center;
+            background: url('./images/Background.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 170px 10px;
+            background-position: center -150px;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        header nav1 {
+    display: flex;
+    justify-content: center; /* Centraliza os links */
+    align-items: center; /* Alinha os links verticalmente */
+    gap: 30px; /* Espaçamento entre links */
+    margin-top: 10px; /* Separação entre logo e navegação */
+}
+
+/* Links do menu */
+header nav1 a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #333333; /* Cor neutra e agradável */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+    padding: 8px 15px; /* Espaçamento interno nos links */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves */
+}
+
+/* Efeito ao passar o mouse */
+header nav1 a:hover {
+    background-color: #f0f0f0; /* Fundo claro no hover */
+    color: #0078d7; /* Cor de destaque */
+}
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background: linear-gradient(to right, #00a5cf, #6cc24a, #f5a623, #d72b27, #823eb6);
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 12px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        .content {
+            padding: 30px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
+        .content h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            padding: 30px 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h3 {
+            color: #555;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        .values-list {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+            border-radius: 15px;
+        }
+
+        .values-list div {
+            flex: 1;
+            text-align: center;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        .values-list h4 {
+            font-size: 1.5rem;
+            color: #f5a623;
+            margin-bottom: 10px;
+            border-radius: 15px;
+        }
+
+        .values-list p {
+            font-size: 1rem;
+            color: #555;
+            border-radius: 15px;
+        }
+        .values-list img {
+            border-radius: 15px; /* Aplica borda arredondada */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar a imagem */
+            max-width: 100%; /* Garante que a imagem se ajuste dentro do seu contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .footer-contact,
+        .footer-social,
+        .footer-copy {
+            flex: 1;
+            margin: 10px;
+        }
+        
+        .footer-contact ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-contact ul li {
+            margin-bottom: 5px;
+        }
+        
+        .footer-contact a,
+        .footer-social a {
+            color: #6cc24a;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-contact a:hover,
+        .footer-social a:hover {
+            color: #00a5cf;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+        .social-icons .icon {
+            display: inline-block;
+            padding: 10px;
+            background-color: #555;
+            border-radius: 50%;
+            text-align: center;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        
+        .social-icons .icon:hover {
+            background-color: #6cc24a;
+        }
+        
+        .footer-copy {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #bbb;
+        }
+
 /* Ajustes gerais para telas menores */
 @media (max-width: 768px) {
     header {
