@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistência - Migra Connection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="Logotipo Migra Connection">
+        <nav>
+            <a href="..\index.html">Projeto</a>
+            <a href="../voluntartio/voluntario.html">Seja um Voluntário</a>
+            <a href="../about/about.html">Quem somos</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Solicite Assistência no Projeto Migra Connection</h2>
+        <p>O Migra Connection tem como objetivo ajudar imigrantes e refugiados a superarem desafios e construírem uma nova vida no Brasil. Nosso trabalho inclui suporte em diversas áreas importantes para uma integração digna e segura.</p>
+
+        <h3>Serviços Oferecidos</h3>
+        <p>Oferecemos assistência em:</p>
+        <ul>
+            <li><strong>Empregabilidade:</strong> Elaboração de currículos, preparação para entrevistas e busca de vagas no mercado de trabalho.</li>
+            <li><strong>Saúde:</strong> Orientação para acesso ao SUS, escolha de seguros de saúde e agendamento de consultas médicas.</li>
+            <li><strong>Educação:</strong> Ajuda com inscrições em escolas, acesso a bolsas de estudo e cursos de qualificação.</li>
+            <li><strong>Habitação:</strong> Apoio para análise de contratos de aluguel, busca de moradia e financiamentos.</li>
+            <li><strong>Planejamento Financeiro:</strong> Auxílio para planejamento de orçamento familiar e declaração de impostos.</li>
+            <li><strong>Interculturalidade:</strong> Suporte para adaptação cultural e integração na sociedade brasileira.</li>
+            <li><strong>Documentação:</strong> Assistência com CPF, RNE, carteira de trabalho e outros documentos essenciais.</li>
+        </ul>
+
+        <h3>Formulário de Solicitação</h3>
+        <p>Preencha o formulário abaixo para que possamos entender suas necessidades e fornecer o suporte necessário:</p>
+
+        <form action="https://formspree.io/f/xgveblov" method="POST" class="form-inscricao" enctype="multipart/form-data">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        
+            <label for="nacionalidade">Nacionalidade:</label>
+            <input type="text" id="nacionalidade" name="nacionalidade" placeholder="Digite sua nacionalidade" required>
+        
+            <label for="idioma">Idiomas que Fala:</label>
+            <select id="idioma" name="idioma" required>
+                <option value="" disabled selected>Selecione um idioma</option>
+                <option value="portugues">Português</option>
+                <option value="ingles">Inglês</option>
+                <option value="espanhol">Espanhol</option>
+                <option value="frances">Francês</option>
+                <option value="alemao">Alemão</option>
+                <option value="outro">Outro</option>
+            </select>
+        
+            <label for="areas">Áreas de Assistência Necessária:</label>
+            <textarea id="areas" name="areas" placeholder="Descreva brevemente as áreas em que precisa de ajuda, como emprego, saúde, etc." required></textarea>
+        
+            <label for="telefone">Telefone de Contato:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone com DDD" required>
+        
+            <label for="cidade">Cidade Atual:</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Informe a cidade onde está morando" required>
+        
+            <label for="mensagem">Mensagem Adicional:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Se quiser, descreva mais detalhes sobre sua situação ou necessidades específicas"></textarea>
+        
+            <button type="submit">Solicitar Assistência</button>
+        </form>
+        
+
+        <h3>Informações Importantes</h3>
+        <p><strong>Confidencialidade:</strong> Todas as informações fornecidas serão tratadas com a máxima confidencialidade e usadas apenas para fins de assistência.</p>
+        <p><strong>Contato:</strong> Em caso de dúvidas, entre em contato pelo nosso e-mail ou telefone listados abaixo.</p>
+    </div>
+
+    <footer id="contato">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h4>Contatos</h4>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:agenciassumir2020@gmail.com">agenciassumir2020@gmail.com</a></li>
+                    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/agenciassumir">@agenciassumir</a></li>
+                    <li><strong>Telefone:</strong> +55 61 94241-899 / 97403-7753</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/agenciassumir" target="_blank" class="icon">Instagram</a>
+                    <a href="https://www.linkedin.com/in/migra-connection/" target="_blank" class="icon">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2024 Migra Connection - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

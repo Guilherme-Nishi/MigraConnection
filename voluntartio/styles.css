@@ -1,0 +1,228 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(45deg, #00a5cf, #6cc24a);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    max-height: 70px;
+}
+
+header nav1 {
+    display: flex;
+    gap: 20px;
+}
+
+header nav1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header nav1 a:hover {
+    background-color: #ffffff30;
+}
+
+.hero {
+    text-align: center;
+    background: url('../images/assumir.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    background-position: center -150px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #00a5cf;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #6cc24a;
+    padding-bottom: 5px;
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-contact,
+.footer-social,
+.footer-copy {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul li {
+    margin-bottom: 5px;
+}
+
+.footer-contact a,
+.footer-social a {
+    color: #6cc24a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover,
+.footer-social a:hover {
+    color: #00a5cf;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-icons .icon {
+    display: inline-block;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+    background-color: #6cc24a;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #bbb;
+}
+
+.img-nossa-historia {
+    width: 80%; 
+    height: auto; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.content {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.form-inscricao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #555555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #0077cc;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 119, 204, 0.3);
+}
+
+button {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor em forma de mão */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    width: 150px; /* Ajuste a largura aqui */
+    margin: 0 auto; /* Centraliza o botão */
+    display: block; /* Faz o botão ser um bloco */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
